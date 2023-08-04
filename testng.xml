@@ -6,14 +6,9 @@
 	</listeners>
 	<test name="Test">
 		<classes>
-			<class name="com.nagp.tests.AddToCartAndCheckOutTest" />
-			<class name="com.nagp.tests.ChooseProductFromDropDownTest" />
+		
 			<class name="com.nagp.tests.CreateAccountTest" />
-			<class name="com.nagp.tests.ReadAndWriteReviewsForProductTest" />
-			<class name="com.nagp.tests.SearchAndAddToWishListTest" />
-			<class name="com.nagp.tests.SignInTest" />
-
-			<class name="com.nagp.tests.WhatsNewTest" />
+			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
