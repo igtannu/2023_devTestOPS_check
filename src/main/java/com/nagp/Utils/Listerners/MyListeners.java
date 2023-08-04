@@ -73,22 +73,22 @@ public class MyListeners implements ITestListener {
 		
 	}
 
-	@Override
-	public void onFinish(ITestContext context) {
-		
-		extentReport.flush();
-		
-//		String pathOfExtentReport = System.getProperty("user.dir")+"\\ExtentReports\\extentReport.html";
-		String pathOfExtentReport = Constants.REPORT_DIRECTORY;
-
-		File extentReport = new File(pathOfExtentReport);
-		
-		try {
-			Desktop.getDesktop().browse(extentReport.toURI());
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		
-	}
+//	@Override
+//	public void onFinish(ITestContext context) {
+//		
+//		extentReport.flush();
+//		
+////		String pathOfExtentReport = System.getProperty("user.dir")+"\\ExtentReports\\extentReport.html";
+//		String pathOfExtentReport = Constants.REPORT_DIRECTORY;
+//
+//		File extentReport = new File(pathOfExtentReport);
+//		
+//		try {
+//			Desktop.getDesktop().browse(extentReport.toURI());
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//		
+//	}
 	
 }
