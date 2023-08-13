@@ -1,4 +1,4 @@
-package com.nagp.Utils.ConfigReader;
+package com.nagp.utils.configreader;
 
 
 import java.io.FileInputStream;
@@ -8,10 +8,11 @@ import java.util.Properties;
 
 public class ReadFromProperty {
 
-	private Properties prop;
+	 
 
 	public Properties property() throws IOException
 	{
+		Properties prop;
 		String filePath = "./src/test/resources/config.properties";
 		prop = new Properties();
 		try {
@@ -21,10 +22,7 @@ public class ReadFromProperty {
 		catch(FileNotFoundException e)
 		{
 			e.printStackTrace();
-		}
-		catch(IOException e)
-		{
-			e.printStackTrace();
+		} finally {
 		}
 		
 		return prop;

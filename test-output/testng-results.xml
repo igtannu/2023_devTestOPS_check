@@ -1,80 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-13T20:46:52 IST" name="Suite" finished-at="2023-08-13T20:48:31 IST" duration-ms="99211">
+  <suite started-at="2023-08-14T00:34:59 IST" name="Suite" finished-at="2023-08-14T00:36:01 IST" duration-ms="61593">
     <groups>
       <group name="Sanity">
-        <method signature="AddToCartAndCheckOutTest.AddToCartCheckOut(java.lang.String,java.lang.String)[pri:1, instance:com.nagp.tests.AddToCartAndCheckOutTest@6aa61224]" name="AddToCartCheckOut" class="com.nagp.tests.AddToCartAndCheckOutTest"/>
-        <method signature="ChooseProductFromDropDownTest.ChoosePro()[pri:1, instance:com.nagp.tests.ChooseProductFromDropDownTest@30bce90b]" name="ChoosePro" class="com.nagp.tests.ChooseProductFromDropDownTest"/>
-        <method signature="ReadAndWriteReviewsForProductTest.ReadReviewTest()[pri:1, instance:com.nagp.tests.ReadAndWriteReviewsForProductTest@3e6f3f28]" name="ReadReviewTest" class="com.nagp.tests.ReadAndWriteReviewsForProductTest"/>
-        <method signature="ReadAndWriteReviewsForProductTest.WriteReviewTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.nagp.tests.ReadAndWriteReviewsForProductTest@3e6f3f28]" name="WriteReviewTest" class="com.nagp.tests.ReadAndWriteReviewsForProductTest"/>
+        <method signature="AddToCartAndCheckOutTest.AddToCartCheckOut(java.lang.String,java.lang.String)[pri:1, instance:com.nagp.tests.AddToCartAndCheckOutTest@c7045b9]" name="AddToCartCheckOut" class="com.nagp.tests.AddToCartAndCheckOutTest"/>
+        <method signature="ChooseProductFromDropDownTest.ChoosePro()[pri:1, instance:com.nagp.tests.ChooseProductFromDropDownTest@f99f5e0]" name="ChoosePro" class="com.nagp.tests.ChooseProductFromDropDownTest"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2023-08-13T20:46:52 IST" name="Test" finished-at="2023-08-13T20:48:31 IST" duration-ms="99211">
-      <class name="com.nagp.tests.ReadAndWriteReviewsForProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.tests.ReadAndWriteReviewsForProductTest@3e6f3f28]" started-at="2023-08-13T20:47:57 IST" name="setup" finished-at="2023-08-13T20:48:05 IST" duration-ms="7597" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="ReadReviewTest()[pri:1, instance:com.nagp.tests.ReadAndWriteReviewsForProductTest@3e6f3f28]" started-at="2023-08-13T20:48:05 IST" name="ReadReviewTest" description="Read Reviews Fucntionality" finished-at="2023-08-13T20:48:12 IST" duration-ms="6964" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReadReviewTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagp.tests.ReadAndWriteReviewsForProductTest@3e6f3f28]" started-at="2023-08-13T20:48:12 IST" name="tearDown" finished-at="2023-08-13T20:48:12 IST" duration-ms="346" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.tests.ReadAndWriteReviewsForProductTest@3e6f3f28]" started-at="2023-08-13T20:48:12 IST" name="setup" finished-at="2023-08-13T20:48:21 IST" duration-ms="8469" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="WriteReviewTest(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.nagp.tests.ReadAndWriteReviewsForProductTest@3e6f3f28]" started-at="2023-08-13T20:48:21 IST" name="WriteReviewTest" description="Test Fuctionality For Write Review" data-provider="writeReview" finished-at="2023-08-13T20:48:31 IST" duration-ms="10027" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Tannu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[it is really good]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[fine product]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WriteReviewTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagp.tests.ReadAndWriteReviewsForProductTest@3e6f3f28]" started-at="2023-08-13T20:48:31 IST" name="tearDown" finished-at="2023-08-13T20:48:31 IST" duration-ms="325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.nagp.tests.ReadAndWriteReviewsForProductTest -->
+    <test started-at="2023-08-14T00:34:59 IST" name="Test" finished-at="2023-08-14T00:36:01 IST" duration-ms="61593">
       <class name="com.nagp.tests.CreateAccountTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.tests.CreateAccountTest@7cb502c]" started-at="2023-08-13T20:46:52 IST" name="setup" finished-at="2023-08-13T20:47:02 IST" duration-ms="10006" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.tests.CreateAccountTest@5b3f61ff]" started-at="2023-08-14T00:34:59 IST" name="setup" finished-at="2023-08-14T00:35:13 IST" duration-ms="13711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createAccountTest()[pri:1, instance:com.nagp.tests.CreateAccountTest@7cb502c]" started-at="2023-08-13T20:47:02 IST" name="createAccountTest" description="Create New Account using Faker Details" finished-at="2023-08-13T20:47:06 IST" duration-ms="3915" status="PASS">
+        <test-method signature="createAccountTest()[pri:1, instance:com.nagp.tests.CreateAccountTest@5b3f61ff]" started-at="2023-08-14T00:35:13 IST" name="createAccountTest" description="Create New Account using Faker Details" finished-at="2023-08-14T00:35:17 IST" duration-ms="4289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagp.tests.CreateAccountTest@7cb502c]" started-at="2023-08-13T20:47:06 IST" name="tearDown" finished-at="2023-08-13T20:47:06 IST" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagp.tests.CreateAccountTest@5b3f61ff]" started-at="2023-08-14T00:35:17 IST" name="tearDown" finished-at="2023-08-14T00:35:18 IST" duration-ms="417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nagp.tests.CreateAccountTest -->
       <class name="com.nagp.tests.AddToCartAndCheckOutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.tests.AddToCartAndCheckOutTest@6aa61224]" started-at="2023-08-13T20:47:07 IST" name="setup" finished-at="2023-08-13T20:47:15 IST" duration-ms="7987" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.tests.AddToCartAndCheckOutTest@c7045b9]" started-at="2023-08-14T00:35:19 IST" name="setup" finished-at="2023-08-14T00:35:28 IST" duration-ms="9189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AddToCartCheckOut(java.lang.String,java.lang.String)[pri:1, instance:com.nagp.tests.AddToCartAndCheckOutTest@6aa61224]" started-at="2023-08-13T20:47:15 IST" name="AddToCartCheckOut" description="Test Add to cart Fuctionality with checkOut" data-provider="validCredentialsLogin" finished-at="2023-08-13T20:47:42 IST" duration-ms="27067" status="PASS">
+        <test-method signature="AddToCartCheckOut(java.lang.String,java.lang.String)[pri:1, instance:com.nagp.tests.AddToCartAndCheckOutTest@c7045b9]" started-at="2023-08-14T00:35:28 IST" name="AddToCartCheckOut" description="Test Add to cart Fuctionality with checkOut" data-provider="validCredentialsLogin" finished-at="2023-08-14T00:35:48 IST" duration-ms="19607" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,21 +45,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddToCartCheckOut -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagp.tests.AddToCartAndCheckOutTest@6aa61224]" started-at="2023-08-13T20:47:42 IST" name="tearDown" finished-at="2023-08-13T20:47:43 IST" duration-ms="402" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagp.tests.AddToCartAndCheckOutTest@c7045b9]" started-at="2023-08-14T00:35:48 IST" name="tearDown" finished-at="2023-08-14T00:35:48 IST" duration-ms="344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nagp.tests.AddToCartAndCheckOutTest -->
       <class name="com.nagp.tests.ChooseProductFromDropDownTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.tests.ChooseProductFromDropDownTest@30bce90b]" started-at="2023-08-13T20:47:43 IST" name="setup" finished-at="2023-08-13T20:47:51 IST" duration-ms="8564" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagp.tests.ChooseProductFromDropDownTest@f99f5e0]" started-at="2023-08-14T00:35:48 IST" name="setup" finished-at="2023-08-14T00:35:57 IST" duration-ms="8768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ChoosePro()[pri:1, instance:com.nagp.tests.ChooseProductFromDropDownTest@30bce90b]" started-at="2023-08-13T20:47:51 IST" name="ChoosePro" description="Choose Product from inhereted dropdowns" finished-at="2023-08-13T20:47:57 IST" duration-ms="5514" status="PASS">
+        <test-method signature="ChoosePro()[pri:1, instance:com.nagp.tests.ChooseProductFromDropDownTest@f99f5e0]" started-at="2023-08-14T00:35:57 IST" name="ChoosePro" description="Choose Product from inhereted dropdowns" finished-at="2023-08-14T00:36:01 IST" duration-ms="3905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChoosePro -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagp.tests.ChooseProductFromDropDownTest@30bce90b]" started-at="2023-08-13T20:47:57 IST" name="tearDown" finished-at="2023-08-13T20:47:57 IST" duration-ms="344" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagp.tests.ChooseProductFromDropDownTest@f99f5e0]" started-at="2023-08-14T00:36:01 IST" name="tearDown" finished-at="2023-08-14T00:36:01 IST" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

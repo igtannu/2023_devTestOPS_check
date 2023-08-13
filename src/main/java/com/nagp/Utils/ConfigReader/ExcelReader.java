@@ -1,4 +1,4 @@
-package com.nagp.Utils.ConfigReader;
+package com.nagp.utils.configreader;
 
 
 import java.io.File;
@@ -22,7 +22,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import com.nagp.Context.Constants;
+import com.nagp.context.Constants;
 
 public class ExcelReader {
 	

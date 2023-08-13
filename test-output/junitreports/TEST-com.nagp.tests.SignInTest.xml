@@ -41,7 +41,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
-at com.nagp.Pages.SignInPage.clickEmail(SignInPage.java:57)
+at com.nagp.pages.SignInPage.clickEmail(SignInPage.java:57)
 at com.nagp.tests.SignInTest.InValidLoginTest(SignInTest.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)

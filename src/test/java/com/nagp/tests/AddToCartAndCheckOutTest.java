@@ -12,15 +12,16 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.nagp.Context.Constants;
-import com.nagp.Pages.AddToCartAndCheckOutPage;
-import com.nagp.Pages.HomePage;
-import com.nagp.Pages.SignInPage;
-import com.nagp.Pages.WhatsNewPage;
-import com.nagp.Utils.ConfigReader.ExcelReader;
+import com.nagp.context.Constants;
+import com.nagp.pages.AddToCartAndCheckOutPage;
+import com.nagp.pages.HomePage;
+import com.nagp.pages.SignInPage;
+import com.nagp.pages.WhatsNewPage;
+import com.nagp.utils.configreader.ExcelReader;
 
 public class AddToCartAndCheckOutTest extends BaseTest {
 
+	ExcelReader excelReader=new ExcelReader();	
 	AddToCartAndCheckOutPage addToCart;
 	SignInPage signIn;
 	WhatsNewPage whtasnew;
@@ -35,7 +36,6 @@ public class AddToCartAndCheckOutTest extends BaseTest {
 	public void setup() {
 
 		driver = initializeBrowserAndOpenApplicationURL(prop.getProperty("browser"));
-		HomePage homePage = new HomePage(driver);
 		signIn = new SignInPage(driver);
 		whtasnew = new WhatsNewPage(driver);
 		addToCart = new AddToCartAndCheckOutPage(driver);

@@ -16,9 +16,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import com.nagp.Context.Constants;
-import com.nagp.Utils.Logs.Logs;
-import com.nagp.Utils.Logs.Utilities;
+import com.nagp.utils.logs.Logs;
+import com.nagp.utils.logs.Utilities;
+import com.nagp.context.Constants;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 

@@ -1,4 +1,5 @@
-//package com.nagp.Pages;
+package com.nagp.pages;
+//package com.nagp.pages;
 //
 //import java.time.Duration;
 //

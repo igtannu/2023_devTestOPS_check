@@ -1,10 +1,9 @@
-package com.nagp.Utils.Logs;
+package com.nagp.utils.logs;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-import com.nagp.Context.Constants;
-//import com.nagp.Pages.BasePage;
+import com.nagp.context.Constants;
 
 public class Logs{
 

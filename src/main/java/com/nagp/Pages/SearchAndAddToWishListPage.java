@@ -1,4 +1,4 @@
-package com.nagp.Pages;
+package com.nagp.pages;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;

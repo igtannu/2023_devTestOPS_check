@@ -1,4 +1,4 @@
-package com.nagp.Utils.Logs;
+package com.nagp.utils.logs;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -16,7 +16,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 
-import com.nagp.Context.Constants;
+import com.nagp.context.Constants;
 
 public class Utilities {
 	

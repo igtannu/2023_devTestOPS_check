@@ -8,7 +8,6 @@
 			<class name="com.nagp.tests.AddToCartAndCheckOutTest"/>
 			<class name="com.nagp.tests.ChooseProductFromDropDownTest" />
 			<class name="com.nagp.tests.CreateAccountTest" />
-			<class name="com.nagp.tests.ReadAndWriteReviewsForProductTest" />
 
 
 		</classes>

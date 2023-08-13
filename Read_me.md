@@ -19,12 +19,12 @@ This repository contains a Test Suite written in Java that runs a few simple tes
 
 ## Packages Description
 **Main** 
-  - com.nagp.Context : for Constants paths
-  - com.nagp.Pages: Have POM's for all tests
-  - com.nagp.Utils.ConfigReader : For Config Reader
+  - com.nagp.context : for Constants paths
+  - com.nagp.pages: Have POM's for all tests
+  - com.nagp.Utils.configreader : For Config Reader
   - com.nagp.Utils.Listerners : For Lisetners
-  - com.nagp.Utils.Logs: For Utils related to Logs
-  - com.nagp.Utils.Reports : For utils related to Reports
+  - com.nagp.utils.logs: For Utils related to Logs
+  - com.nagp.Utils.reports : For utils related to Reports
  
 **Test**
 - AddToCartAndCheckOutTest : After Login product add to cart and then checkout happens 

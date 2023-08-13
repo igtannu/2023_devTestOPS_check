@@ -5,11 +5,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.nagp.Pages.AddToCartAndCheckOutPage;
-import com.nagp.Pages.ChooseProductFromDropDownPage;
-import com.nagp.Pages.HomePage;
-import com.nagp.Pages.SignInPage;
-import com.nagp.Pages.WhatsNewPage;
+import com.nagp.pages.AddToCartAndCheckOutPage;
+import com.nagp.pages.ChooseProductFromDropDownPage;
+import com.nagp.pages.HomePage;
+import com.nagp.pages.SignInPage;
+import com.nagp.pages.WhatsNewPage;
 
 public class ChooseProductFromDropDownTest extends BaseTest {
 

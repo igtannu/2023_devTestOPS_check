@@ -1,4 +1,4 @@
-package com.nagp.Context;
+package com.nagp.context;
 
 /**
  * The Class is for Constants.

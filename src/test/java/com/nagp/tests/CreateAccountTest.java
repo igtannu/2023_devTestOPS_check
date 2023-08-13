@@ -7,8 +7,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
-import com.nagp.Pages.CreateAccountPage;
-import com.nagp.Pages.HomePage;
+import com.nagp.pages.CreateAccountPage;
+import com.nagp.pages.HomePage;
 
 public class CreateAccountTest extends BaseTest {
 
