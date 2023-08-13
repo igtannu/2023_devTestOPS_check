@@ -45,6 +45,25 @@ stage('SonarQube Analysis') {
         }
     }
 }
+stage('plublis artifactory'){
+    steps{
+        rtMavenDeployer(
+            id:'deployer',
+            serverId:'nagpleanr@artifactory',
+            releaseRepo:'LearnPipeline',
+            snapshotRepo:'LearnPipeline'
+        )
+        rtMavenRun(
+            pom:'pom.xml',
+            goals:'clean install',
+            deployerId:'deployer'
+        )
+        rtPublishBuildInfo(
+            serverId:'nagpleanr@artifactory'
+        )
+    }
+}
+
 }
     post{
         success{
