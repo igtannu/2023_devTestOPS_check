@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<listeners>
-		<listener class-name="com.nagp.Utils.Listerners.MyListeners" />
-	</listeners>
 	<test name="Test">
 		<classes>
-		
+
 			<class name="com.nagp.tests.CreateAccountTest" />
-			
+			<class name="com.nagp.tests.AddToCartAndCheckOutTest"/>
+			<class name="com.nagp.tests.ChooseProductFromDropDownTest" />
+			<class name="com.nagp.tests.CreateAccountTest" />
+			<class name="com.nagp.tests.ReadAndWriteReviewsForProductTest" />
+
+
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
