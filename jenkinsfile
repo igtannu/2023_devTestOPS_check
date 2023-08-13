@@ -3,7 +3,7 @@ pipeline{
     	environment {
           SCANNER_HOME = tool name: 'Test_Sonar', 
           type: 'hudson.plugins.sonar.SonarRunnerInstallation'
-          SONAR_PROJECT_KEY = 'TanuGupta_3183491_SeleniumAutomation:TanuGupta_3183491_SeleniumAutomation' 
+          SONAR_PROJECT_KEY = 'Tanu_DevTestOps' 
           SONAR_SERVER_URL = 'http://localhost:9000/' 
           SONAR_LOGIN = 'sqa_e51c02d6846b755035c6f242b27ad881310be3ab' 
 		  notifyEmail ="tanu.gupta02@nagarro.com"
