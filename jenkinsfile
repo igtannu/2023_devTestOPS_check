@@ -37,7 +37,7 @@ stage('SonarQube Analysis') {
         script {
             def scannerPath = "${env.SCANNER_HOME}\\bin"
             def sonarScannerCmd = "${scannerPath}\\sonar-scanner.bat"
-            def sonarCmd = "${sonarScannerCmd} -Dsonar.projectKey=${env.SONAR_PROJECT_KEY} -Dsonar.host.url=${env.SONAR_SERVER_URL} -Dsonar.login=${env.SONAR_LOGIN}"
+            def sonarCmd = "${sonarScannerCmd} -Dsonar.projectKey=${env.SONAR_PROJECT_KEY} -Dsonar.host.url=${env.SONAR_SERVER_URL} -Dsonar.login=${env.SONAR_LOGIN} -Dsonar.java.binaries=target/classes"
 
  
 
